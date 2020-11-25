@@ -7,18 +7,16 @@
         "OSL-3.0",
         "AFL-3.0"
     ],
-    "repositories": {
-        "magento": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://repo.magento.com"
         }
-    },
+    ],
     "require": {
-        "composer-plugin-api": "^1.1",
+        "composer-plugin-api": "^1.1 || ^2.0",
+        "composer/composer": "^1.9 || ^2.0",
         "magento/framework": "*"
-    },
-    "require-dev": {
-        "composer/composer": "*"
     },
     "extra": {
         "class": "Magento\\InventoryComposerInstaller\\Plugin"
