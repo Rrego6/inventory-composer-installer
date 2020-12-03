@@ -7,7 +7,6 @@ declare(strict_types=1);
 
 namespace Magento\InventoryComposerInstaller;
 
-use Composer\Package\Package;
 use Composer\IO\IOInterface;
 use Composer\Package\PackageInterface;
 
